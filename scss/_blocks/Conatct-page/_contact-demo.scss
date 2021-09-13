@@ -1,0 +1,101 @@
+.demo {
+    padding-top: 118px;
+    margin-top: 18px;
+    background-image: url("../img/dog-kiss-shar-.png");
+    background-repeat: no-repeat;
+    background-size: 487px 548px;
+    background-position: right center;
+
+    &__title {
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+        margin: 0;
+        margin-left: 110px;
+        margin-bottom: 27px;
+    }
+
+    &__text {
+        width: 447px;
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        margin: 0;
+        margin-left: 110px;
+    }
+
+    &__list {
+        width: 50%;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;
+        margin-left: 110px;
+        margin-top: 110px;
+    }
+
+    &__item::before {
+        content: "";
+        display: inline-block;
+        width: 73px;
+        height: 73px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+    }
+
+    &__address {
+        margin: 0;
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        color: #333333;
+    }
+
+    &__work {
+        margin: 0;
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        margin: 12px 0;
+    }
+
+    &__phone {
+        display: block;
+        text-decoration: none;
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+    }
+
+}
+
+.map::before {
+    background-image: url("../img/iphone-dog.png");
+    margin-bottom: 30px;
+}
+
+.calendar::before {
+    background-image: url("../img/calendar.png");
+}
+  .phone::before {
+    background-image: url("../img/phone.png");
+}

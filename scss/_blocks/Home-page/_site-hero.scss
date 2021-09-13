@@ -1,0 +1,56 @@
+.hero {
+    padding: 173px 0 250px 0;
+    background-image: url("../img/hero-bg-pets.png"),
+    url("../img/hero-bg-parrot.png");
+    background-repeat: no-repeat;
+    background-size: 870px 835px, 350px 430px;
+    background-position: calc(50% - 530px) -100px, calc(50% + 620px) 400px;
+
+    &__info {
+        width: 610px;
+        margin-left: 640px;
+    }
+
+    &__title {
+        font-size: 70px;
+        line-height: 64px;
+        margin: 0;
+        margin-bottom: 29px;
+        color: #333;
+    }
+
+    &__title-blue {
+        display: block;
+        color: #79c0de;
+    }
+
+    &__text {
+        width: 500px;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+        margin: 0;
+        margin-bottom: 39px;
+    }
+
+    &__link {
+        display: inline-block;
+        vertical-align: baseline;
+        padding: 15px 47px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #333;
+        border-radius: 3px;
+
+        &:hover {
+            background-color: #FFBD54;
+            color: #333;
+        }
+        &:active {
+            opacity: 0.6;
+        }
+    }
+
+
+
+}

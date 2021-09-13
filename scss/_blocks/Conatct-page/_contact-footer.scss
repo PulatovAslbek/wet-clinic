@@ -1,0 +1,128 @@
+.footer {
+    background-color: #DBDBDB;
+    padding-top: 54px;
+    padding-bottom: 23px;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+        list-style-type: none; 
+    }
+
+    &__logo {
+        display: block;
+        &:hover {
+            opacity: 0.8;
+        }
+        &:active {
+            opacity: 0.6;
+        }
+    }
+
+    &__submenu {
+        margin: 14px;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__item{
+        margin-top: 14px;
+    }
+
+    &__submenu-link {
+        font-weight: 500;
+        font-size: 16px;
+        display: inline-block;
+        text-decoration: none;
+        line-height: 21px;
+        color: #333333;
+        &:hover {
+            color: #FFBD54;
+        }
+        &:active {
+            color: rgba(51, 51, 51, 0.7);
+        }
+
+    }
+
+    &__phone-number {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__number-footer{
+        font-weight: 700;
+        font-size: 14px;
+        text-decoration: none;
+        color: #333;
+    }
+
+    &__numbers-icon {
+        position: relative;
+        &::after {
+            content: "";
+            width: 20px;
+            height: 20px;
+            background-size: 16px;
+            display: inline-block;
+            background-image: url("../img/phone-icon.svg");
+            background-repeat: no-repeat;
+            position: absolute;
+            left: -30px;
+            top: 0;
+        }
+    }
+
+    &__address-site {
+        display: flex;
+        align-items: flex-start;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        &::before{
+            content: "";
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+            margin-right: 9px;
+            background-image:url(../img/home-icon.svg);
+        }
+
+    }
+
+    &__time {
+        align-items: flex-start;
+        &::before {
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            background-image: url("../img/time-icon.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-right: 9px;
+            content: "";
+        }
+    }
+
+    &__work {
+        display: flex;
+        margin: 0;
+        margin-left: 70px;
+    }
+
+
+    &__bottom {
+        text-align: right;
+        font-size: 14px;
+        line-height: 18px;
+        color: #5C5C5C;
+    }
+
+}

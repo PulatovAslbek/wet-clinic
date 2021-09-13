@@ -1,0 +1,133 @@
+.articles {
+    margin-bottom: 262px;
+
+    &__text {
+        text-align: center;
+        font-size: 48px;
+        line-height: 20px;
+        color: #333333;
+        margin: 0;
+        margin-bottom: 80px;
+    }
+
+    &__list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__item {
+        background-color: #fff;
+        box-shadow: 0 0 0 1px #E4E4E2;
+        width: 305px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 6px;
+
+        &:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        &:active {
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
+
+    &__img {
+        display: block;
+        margin-bottom: 21px;
+    }
+
+    &__time {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #949494;
+        margin-bottom: 20px;
+
+    }
+
+    &__title {
+        font-size: 22px;
+        line-height: 25px;
+        color: #000;
+        padding: 0 32px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    &__description {
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        padding: 0 30px;
+        margin: 0;
+        flex: 1 1 auto;
+        margin-bottom: 37px;
+    }
+
+    &__btn {
+        margin-left: 30px;
+        padding: 10px;
+        border: none;
+        background-color: transparent;
+        color: #333;
+        display: flex;
+        align-items: center;
+        margin: 0;
+
+        &::before {
+            content: "";
+            margin-right: 6px;
+            margin-left: 30px;
+            width: 23px;
+            height: 23px;
+            display: inline-block;
+            background-image: url("../img/pet-icon.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+    &__item-second {
+        width: 640px;
+        margin: 0 30px;
+        display: flex;
+        background-color: #fff;
+        border-radius: 6px;
+        box-shadow: 0 0 0 1px #E4E4E2;
+
+        &:hover {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+
+        &:active {
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        }
+    }
+
+    &__box {
+        padding: 30px 10px 0 10px;
+    }
+
+    &__span {
+        margin-right: 60px;
+        margin-left: 30px;
+        font-size: 14px;
+        line-height: 22px;
+        color: #3D9CEA;
+    }
+
+
+
+}
+
+.first{
+    margin-left: 215px;
+}
+.last{
+    margin-left: 215px;
+}
